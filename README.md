@@ -8,6 +8,13 @@ In the project directory, you can run:
 
 ### `npm start`
 
+first do docker compose up -D
+docker compose exec -t api bash
+cd app
+npm i
+
+then run app on localhost
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
